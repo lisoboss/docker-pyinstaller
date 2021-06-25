@@ -4,6 +4,7 @@ PyInstaller for Linux and Windows inside Docker
 # run
 ```shell
 docker run -v "$(pwd):/src/" cdrx/pyinstaller-windows "pyinstaller your-script.py"
+docker run -v "$(pwd):/src/" cdrx/pyinstaller-windows "pyinstaller -F your-script.py"
 ```
 
 # From
